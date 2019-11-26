@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #e7ebf0;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 40px;
+  width: 100%;
+  height: 80%;
+  /* color: #333; */
+  /* background: transparent; */
+  /* border: #333; */
+  background: #F7F7F7;
+  box-shadow: 0px 2px 24px 0px rgba(0, 0, 0, 0.15); 
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.hide {
+    display: none;
+}
+
+.menu {
+    background-color: white;
+    box-shadow: 0px 2px 24px 0px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+    width: 1000px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px;
+    position: relative;
+}
+
+.menu__right {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.menu__list {
+    list-style-type: none;
+    padding: 0;
+    height: 100%;
+    margin: 0;
+    margin-right: 40px;
+}
+
+.menu__list-item {
+    display: inline-block;
+    height: 100%;
+    margin-right: 20px;
+}
+
+.menu__list-item:last-child {
+    margin-right: 0;
+}
+
+.menu__link {
+    color: #3a3e47;
+    display: inline-block;
+    height: 100%;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    padding: 0 3px;
+}
+
+.menu__link:hover {
+    color: #ffaa3b;
+}
+
+.menu__link--active {
+    color: #ffaa3b;
+    border-top: 4px solid #ffaa3b;
+    font-weight: 700;
+}
+
+.menu__logo {
+    text-indent: -9999999px;
+    display: inline-block;
+    height: 100%;
+    width: 92px;
+    
+    background-size: cover 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+}
+
+.menu__search-button {
+    height: 42px;
+    width: 42px;
+    border-radius: 50%;
+    border: 1px solid #c8c9ce;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+    
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.menu__search-form {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    padding: 10px;
+    background-color: white;
+}
+
+.menu__search-input {
+    outline: none;
+    border: 1px solid #c8c9ce;
+    font-size: 18px;
+    padding: 5px;
+    font-weight: 300;
+}
+
+.Slider{
+  
+    margin: 0 auto;
+    padding: 80px;
+    width: 40%;
+    height: 50%;
+    color: #333;
+    
+    
+  
+}
+h3 {
+  background: blue;
+  color: #fff;
+  font-size: 36px;
+  line-height: 100px;
+  margin: 10px;
+  padding: 2%;
+  position: relative;
+  text-align: center;
+}
+.variable-width .slick-slide p {
+  background: blue;
+  height: 100px;
+  color: #fff;
+  margin: 5px;
+  line-height: 100px;
+  text-align: center;
+}
+.center .slick-center h3 {
+  color: #e67e22;
+  opacity: 1;
+  transform: scale(1.08);
+}
+.center h3 {
+  opacity: 0.8;
+  transition: all 300ms ease;
+}
+.content {
+  padding: 20px;
+  margin: auto;
+  width: 90%;
+}
+.slick-slide .image {
+  padding: 10px;
+}
+.slick-slide img {
+  border: 5px solid #fff;
+  display: block;
+  margin: auto;
+}
+.slick-slide img.slick-loading {
+  border: 0;
+}
+.slick-slider {
+  margin: 30px auto 50px;
+}
+.slick-dots {
+  margin-left: 0;
+}
+.slick-thumb {
+  bottom: -45px;
+}
+.slick-thumb li {
+  width: 60px;
+  height: 45px;
+}
+.slick-thumb li img {
+  filter: grayscale(100%);
+}
+.slick-thumb li.slick-active img {
+  filter: grayscale(0%);
+}
+@media (max-width: 768px) {
+  h3 {
+    font-size: 24px;
+  }
+  .center {
+    margin-left: -40px;
+    margin-right: -40px;
+  }
+  .center .slick-center h3 {
+    color: #e67e22;
+    opacity: 1;
+    transform: scale(1);
+  }
+  .center h3 {
+    opacity: 0.8;
+    transform: scale(0.95);
+    transition: all 300ms ease;
+  }
+}
+.slick-vertical .slick-slide {
+  height: 180px;
+}
+.slick-arrow {
+  background-color: grey;
+  /* color: black; */
+}
+.slick-arrow:hover {
+  background-color: grey;
+}
+.navbar,
+.navbar-default {
+    background-image: linear-gradient(to bottom,rgba(204,204,204,1) 0,rgba(204,204,204,1) 100%) !important;
+    box-shadow: 0px 2px 24px 0px rgba(0, 0, 0, 0.15); /* override background image gradient w/ flat color */
+}
+.Cardstyle {
+  box-shadow: 0px 2px 24px 0px rgba(0, 0, 0, 0.15); 
+}
+/* .slick-prev {
+  z-index: 100;
+  left: 20px !important;
+}
+.slick-next {
+  z-index: 100;
+  right: 20px !important;
+} */

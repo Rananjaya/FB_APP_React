@@ -1,0 +1,117 @@
+/* .flex-container {
+    display: flex;
+    background-color:#000;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+  } */
+  .html {
+    font-family: "Montserrat", sans-serif !important;
+  }
+  .flex-container {
+    /* The image used */
+    /* background-image: url(https://t-ec.bstatic.com/images/hotel/max1024x768/176/176834699.jpg); */
+  
+    /* Full height */
+    display: flex;
+    background-color: #ffff;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    border: none !important;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .cardContainer {
+    /* background-color: rgba(0, 0, 0, 0.7) !important; */
+    border: none !important;
+    box-shadow: none !important;
+  }
+  .whiteLabels {
+    color: white !important;
+    font-family: "Montserrat", sans-serif !important;
+  }
+  
+  .geayButton {
+    background-color: #8f8f97 !important;
+    color: white !important;
+    font-family: "Montserrat", sans-serif !important;
+    border-radius: 0px !important;
+  }
+  .fixedTable .table {
+    background-color: white;
+    width: auto;
+  }
+  .fixedTable .table tr td,
+  .fixedTable .table tr th {
+    min-width: 100px;
+    width: 100px;
+    min-height: 20px;
+    height: 20px;
+    padding: 5px;
+  }
+  .fixedTable-header {
+    width: 510px;
+    height: 30px;
+    margin-left: 110px;
+    overflow: hidden;
+    border-bottom: 1px solid #ccc;
+  }
+  .fixedTable-sidebar {
+    width: 110px;
+    height: 310px;
+    float: left;
+    overflow: hidden;
+    border-right: 1px solid #ccc;
+  }
+  .fixedTable-body {
+    overflow: auto;
+    width: 510px;
+    height: 310px;
+    float: left;
+  }
+  
+  .hms_button:active {
+    transform: translateY(0.1rem) !important;
+  }
+  .hms_button:hover {
+    background-color: #ff8400 !important;
+  }
+  
+  .hms_button {
+    background-color: #fa9e3c !important;
+    color: white !important;
+    border-radius: 4px !important ;
+  }
+  
+  .falutbutton {
+    border-radius: 4px !important ;
+  }
+  .falutbutton:active {
+    transform: translateY(-0.1rem) !important;
+  }
+  .iconbtn {
+    padding: 0% !important;
+    background-color: transparent !important;
+    color: black !important;
+  }
+  
+  .star {
+    color: red;
+  }
+  
+  .hms_ico::before {
+    color: white !important;
+  }
+
+  .block-example {
+    width: 6rem;
+    height: 6rem;
+    margin: 0.5rem;
+    background-color: #eee;
+    display: inline-block;
+}
+  
